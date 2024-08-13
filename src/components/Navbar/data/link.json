@@ -1,0 +1,99 @@
+{
+    "navLinks": [
+        {
+            "name": "What We Do",
+            "link": "/what-we-do"
+        },
+        {
+            "name": "Working With Us",
+            "link": "/working-with-us"
+        },
+        {
+            "name": "Purpose",
+            "link": "/purpose"
+        },
+        {
+            "name": "Careers",
+            "link": "/careers"
+        },
+        {
+            "name": "Insights",
+            "link": "/insights"
+        },
+        {
+            "name": "Contact",
+            "link": "/contact"
+        }
+    ],
+    "whatWeDO": [
+        {
+            "name": "Paid Media",
+            "link": "/paid-media",
+            "arrow": "i ri-arrow-right-line"
+        },
+        {
+            "name": "SEO",
+            "link": "/seo",
+            "arrow": "i ri-arrow-right-line"
+        },
+        {
+            "name": "Content",
+            "link": "/content",
+            "arrow": "i ri-arrow-right-line"
+        },
+        {
+            "name": "Data & Analytics",
+            "link": "/data-analytics",
+            "arrow": "i ri-arrow-right-line"
+        },
+        {
+            "name": "CRO",
+            "link": "/cro",
+            "arrow": "i ri-arrow-right-line"
+        },
+        {
+            "name": "Digital Strategy",
+            "link": "/digital-strategy",
+            "arrow": "i ri-arrow-right-line"
+        },
+        {
+            "name": "Consultancy",
+            "link": "/consultancy",
+            "arrow": "i ri-arrow-right-line"
+        }
+    ],
+    "workingWithUs": [
+        {
+            "name": "Client Experience",
+            "link": "/client-experience",
+            "arrow": "i ri-arrow-right-line"
+        },
+        {
+            "name": "Client Testimonials",
+            "link": "/client-testimonials",
+            "arrow": "i ri-arrow-right-line"
+        },
+        {
+            "name": "The Loom Story",
+            "link": "/loom-story",
+            "arrow": "i ri-arrow-right-line"
+        },
+        {
+            "name": "Our Team",
+            "link": "/our-team",
+            "arrow": "i ri-arrow-right-line"
+        }
+    ],
+    "purpose": [
+        {
+            "name": "B Corp Certified",
+            "link": "/certified",
+            "arrow": "i ri-arrow-right-line"
+        },
+        {
+            "name": "lloominate",
+            "link": "/lloominate",
+            "arrow": "i ri-arrow-right-line"
+        }
+    ]
+}

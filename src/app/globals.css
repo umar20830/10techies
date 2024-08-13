@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link:hover .arr{
+    display: flex;    
+}
+
+.hoverLink:hover .firstArrow{
+    transform: translateX(0px);
+    opacity: 1;
+}
+
+.hoverLink:hover .secondArrow{
+    scale: 0;
+}

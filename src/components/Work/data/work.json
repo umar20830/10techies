@@ -1,0 +1,53 @@
+{
+    "work": [
+        {
+            "title": "Stellar Cookware • eCommerce",
+            "img": "/work/work1.png",
+            "btn": [
+                "Content",
+                "Paid Media",
+                "PPC",
+                "SEO"
+            ],
+            "introHeading": "Cooking up more traffic & revenue for Stellar Cookware",
+            "para": "10Techies's SEO, Content and Paid Media teams used their skills and expertise to improve the revenue, organic visibility and traffic for Stellar Cookware, one of the UK's leading kitchenware brands.",
+            "percent": [
+                {
+                    "value": "147%",
+                    "text": "increase in organic traffic"
+                },
+                {
+                    "value": "102%",
+                    "text": "increase in paid traffic"
+                },
+                {
+                    "value": "59%",
+                    "text": "increase in organic revenue"
+                }
+            ]
+        },
+        {
+            "title": "EventStoreDB • Lead Gen",
+            "img": "/work/work2.png",
+            "btn": [
+                "Paid Social"
+            ],
+            "introHeading": "LinkedIn Ads drive quality conversions for niche SaaS company",
+            "para": "10Techies worked with Event Store, the company behind EventStoreDB - an open-source state-transition database for building event-sourced software applications, to boost lead generation, registrations and sign-ups through targeted marketing on LinkedIn.",
+            "percent": [
+                {
+                    "value": "770%",
+                    "text": "increase in clicks year on year"
+                },
+                {
+                    "value": "33%",
+                    "text": "YoY cost per click reduction"
+                },
+                {
+                    "value": "323",
+                    "text": "conversions"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "cardData": [
+        {
+            "title": "what we do",
+            "para":"Tailoring digital strategies across a range of performance channels",
+            "link":"/what-we-do"
+        },
+        {
+            "title": "client experience",
+            "para": "Prioritising connection and long-lasting partnerships",
+            "link":"/working-with-us"
+        },
+        {
+            "title": "our purpose",
+            "para": "Making Loom a force for good",
+            "link":"/purpose"
+        }
+    ]
+}

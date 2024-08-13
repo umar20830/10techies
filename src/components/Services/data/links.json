@@ -1,0 +1,33 @@
+{
+    "services": [
+        {
+            "name": "Paid Media",
+            "link": "/paid-media"
+        },
+        {
+            "name": "SEO",
+            "link": "/seo"
+
+        },
+        {
+            "name": "Content",
+            "link": "/content"
+
+        },
+        {
+            "name": "Data & Analytics",
+            "link": "/data-analytics"
+
+        },
+        {
+            "name": "CRO",
+            "link": "/cro"
+
+        },
+        {
+            "name": "Digital Strategy",
+            "link": "/digital-strategy"
+
+        }
+    ]
+}
