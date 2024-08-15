@@ -2,6 +2,7 @@ import Link from 'next/link'
 import React from 'react'
 
 const Btn = ({content,link}) => {
+
   return (
     <>
         <Link href={link}>

@@ -16,7 +16,7 @@ const Heading = () => {
                         </h2>
                     </div>
                     <div className="para w-full h-full">
-                        <p className="text-[#1d1d3c] text-[1.2rem] tracking-tighter sm:tracking-tight sm:text-[1.4rem] font-['Arial']">We're all about making performance marketing channels work for your business, for the long term.
+                        <p className="text-[#1d1d3c] text-[1.2rem] tracking-tighter sm:tracking-tight sm:text-[1.4rem] font-['Arial']">We&#39;re all about making performance marketing channels work for your business, for the long term.
                             <br />
                             <br />
                             Data, experience and expert thought fuels our full-funnel strategies. Our digital experts are skilled in achieving continued and sustainable growth and generating results that really impact your business. Our winning formula of digital excellence and solid client relationships has really cemented us as a leading performance marketing agency that you can trust.</p>

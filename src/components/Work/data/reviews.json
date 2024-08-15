@@ -1,0 +1,30 @@
+{
+    "reviews":[
+        {},
+        {
+            "review":"“Absolutely fantastic company to work with, full of positivity, energy, great ideas and above all they have year on year helped grow my online business beyond any levels that any of us could have ever imagined. Loom are like an extended part of the Permagard Team, friends, colleagues and teammates.”",
+            "name":"Steve Wookey",
+            "place":"Permagard"
+        },
+        {
+            "review":"“We place a high value on trustworthiness, decency, and capability. Loom ticks all of these boxes. They really care about their clients, go above and beyond to achieve results, and are a pleasure to work with!”",
+            "name":"George Rendel",
+            "place":"The Medic Portal"
+        },
+        {
+            "review":"“Despite being an outsourced agency, they truly feel like part of the team. Very specialist, very knowledgeable, and have been able to take our digital marketing to the next level.”",
+            "name":"Owen Simpson",
+            "place":"Henchman"
+        },
+        {
+            "review":"“The team at Loom have been super pro-active in exploring data to help fine- tune our campaigns to maximise output. Loom's expert marketing insights have helped grow our ROAS and brand awareness significantly.”",
+            "name":"Neil Elliot",
+            "place":"Patternbank"
+        }
+      
+    ]
+
+
+}
+
+
