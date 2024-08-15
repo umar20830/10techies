@@ -45,7 +45,7 @@ const Footer = () => {
                         <div className="links">
                             <ul className="flex flex-wrap gap-6">
                                 {link.map((l, index) => {
-                                    return <li className="text-[1.5rem] underline transition-all duration-700 hover:no-underline text-nowrap font-bold">
+                                    return <li key={index} className="text-[1.5rem] underline transition-all duration-700 hover:no-underline text-nowrap font-bold">
                                         <Link href={l.link} > {l.name} </Link>
                                     </li>
                                 })}

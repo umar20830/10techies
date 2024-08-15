@@ -23,8 +23,8 @@ const Work = () => {
                     </div>
                     <div className="caseStudiesContainer w-full h-full flex flex-col gap-10 p-8 mt-6 sm:mt-0">
                         {eCommerce.map((data, index) => {
-                            return <div className="bg-white p-10 rounded-3xl">
-                                <div key={index} className="heading flex flex-col lg:flex-row gap-5 justify-between items-center">
+                            return <div key={index} className="bg-white p-10 rounded-3xl">
+                                <div className="heading flex flex-col lg:flex-row gap-5 justify-between items-center">
                                     <div className="para">
                                         <p className="text-[1.5rem] text-[#030326] font-['Arial']"> {data.title} </p>
                                     </div>

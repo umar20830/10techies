@@ -22,7 +22,7 @@ const Services = () => {
             {
               links.map((link, index) => {
                 if (index <= 2) {
-                  return <Link key={index} href={link.link} className={`hoverLink flex justify-between items-center border-black/20 py-5 md:py-10 ${index==0 ? "border-y " : index==2 ? "border-y" : console.log("No border in Services!")}`}>
+                  return <Link key={index} href={link.link} className={`hoverLink flex justify-between items-center border-black/20 py-5 md:py-10 ${index==0 ? "border-y " : index==2 ? "border-y" :null}`}>
                     <div className="linkTitle flex justify-center items-center gap-2">
                       <div className="firstArrow -translate-x-4 opacity-0 transition-all duration-300">
                         <Arrow />
@@ -41,7 +41,7 @@ const Services = () => {
             {
               links.map((link, index) => {
                 if (index >= 3) {
-                  return <Link key={index} href={link.link} className={`hoverLink flex justify-between items-center border-black/20 py-5 md:py-10 ${index==3 ? "border-y " : index==5 ? "border-y" : console.log("No border in Services!")}`}>
+                  return <Link key={index} href={link.link} className={`hoverLink flex justify-between items-center border-black/20 py-5 md:py-10 ${index==3 ? "border-y " : index==5 ? "border-y" : null}`}>
                     <div className="linkTitle flex justify-center items-center gap-2">
                       <div className="firstArrow -translate-x-4 opacity-0 transition-all duration-300">
                         <Arrow />

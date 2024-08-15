@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import React from 'react'
 import Button from '../Navbar/Button'
-import Btn from '../Work/Btn'
+
 
 const Partner = () => {
 
@@ -77,7 +77,7 @@ const Partner = () => {
                         </div>
                         <div className="para2">
                             <p className="text-[#030326] text-[1.2rem] sm:text-[1.3rem] md:text-[1.5rem] font-['Arial']">
-                            As a B Corp-certified business, we're on a mission to ensure that Loom is a business that makes the world a better place. From prioritising people and the planet to donating 1% of our profits every year, we want to do everything we can to make Loom a force for good. Always supporting our local Bristol community and fellow businesses to strengthen the city we love.
+                            As a B Corp-certified business, we&#39;re on a mission to ensure that Loom is a business that makes the world a better place. From prioritising people and the planet to donating 1% of our profits every year, we want to do everything we can to make Loom a force for good. Always supporting our local Bristol community and fellow businesses to strengthen the city we love.
                             </p>
                         </div>
                         <div className="btn">
