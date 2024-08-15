@@ -78,7 +78,7 @@ const Footer = () => {
                 <div className="bottom w-full h-full flex flex-col md:flex-row justify-between mt-8 lg:mt-16">
                     <div className="left">
                         <div className="logo">
-                            <Image className="w-[14rem] lg:w-[25rem]" src={"/footer/logo.svg"} width={100} height={100} alt='logo' />
+                            <Image className="w-[14rem] lg:w-[25rem]" src={"/footer/logo.png"} width={100} height={100} alt='logo' />
                         </div>
                         <div className="footerLinks flex flex-col md:flex-row gap-5 mt-6">
                             {footerLinks.map((l, index) => {

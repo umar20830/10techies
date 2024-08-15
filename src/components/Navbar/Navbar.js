@@ -19,7 +19,7 @@ const Navbar = () => {
                         <div className="linkLeftContainer w-full h-full flex justify-center items-center gap-6 xl:gap-10">
                            <Link className="w-[10rem] xl:w-[12rem] h-[10rem] xl:h-[12rem]" href={"/"}>
                             <div className="w-full h-full">
-                            <Image className="w-full h-full" src={"/logo/logo.svg"} width={200} height={200} alt={"Logo"} />
+                            <Image className="w-full h-full" src={"/logo/logo.png"} width={200} height={200} alt={"Logo"} />
                             </div>
                            </Link>
                             {navLinks.map((link, index) => {
