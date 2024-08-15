@@ -37,7 +37,7 @@ const SmallNavbar = () => {
                     <div className="imageContainer">
                         <Link href={"/"}>
                             <div className="w-full h-full">
-                                <Image className="w-[8rem] sm:w-[12rem] h-full" src={"/logo/logo.svg"} width={100} height={100} alt={"Logo"} />
+                                <Image className="w-[8rem] sm:w-[12rem] h-full" src={"/logo/logo.png"} width={100} height={100} alt={"Logo"} />
                             </div>
                         </Link>
                     </div>

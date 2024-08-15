@@ -4,7 +4,7 @@ import "./globals.css";
 const inter = IBM_Plex_Sans({ subsets: ["latin"] , weight:"300"});
 
 export const metadata = {
-  title: "Loom",
+  title: "10 Techies",
   description: "Digital Agency",
 };
 
