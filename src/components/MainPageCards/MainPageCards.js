@@ -15,7 +15,7 @@ const MainPageCards = () => {
                     <div className="boxContainer w-full h-full p-10 sm:py-16 flex flex-wrap justify-evenly items-center gap-10">
                         {
                             cardData.map((data, index) => {
-                                return <div key={index} className={`box w-[20rem] h-[20rem] sm:w-[24rem] sm:h-[24rem] rounded-2xl overflow-hidden transition-all duration-300 hover:scale-[1.1] hover:rotate-[360deg]`}>
+                                return <div key={index} className={`box w-[20rem] h-[20rem] sm:w-[24rem] sm:h-[24rem] rounded-2xl overflow-hidden transition-all duration-300 hover:scale-[1.1]`}>
                                     <Link href={data.link}>
                                         <div className={`content w-full h-full relative flex flex-col justify-center items-center gap-10 z-[-1] p-1 bg-cover ${index == 0 ? "bg-[url('/mainPageCard/card1.jpg')]" : index == 1 ? "bg-[url('/mainPageCard/card2.jpg')]" : "bg-[url('/mainPageCard/card3.webp')]"}`}>
                                             <div className='w-full h-full bg-black/40 z-[-2] absolute'></div>

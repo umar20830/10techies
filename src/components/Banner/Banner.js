@@ -1,32 +1,7 @@
-"use client"
 import React from 'react'
-import { useGSAP } from '@gsap/react'
-import gsap from 'gsap'
+
 
 const Banner = () => {
-
-    useGSAP(() => {
-
-        gsap.from(".mainHeading h1", {
-            y: 100,
-            opacity: 0,
-            duration: 1,
-            stagger: 0.2
-        })
-        gsap.from((".para p"), {
-            x: 100,
-            opacity: 0,
-            duration: 1
-        })
-        gsap.from((".para2 p"), {
-            x: -100,
-            opacity: 0,
-            duration: 1
-        })
-
-    })
-
-
 
     return (
         <>
