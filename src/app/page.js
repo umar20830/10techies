@@ -2,6 +2,7 @@ import Banner from "@/components/Banner/Banner";
 import Footer from "@/components/Footer/Footer";
 import Heading from "@/components/HeadingUnderCards/Heading";
 import MainPageCards from "@/components/MainPageCards/MainPageCards";
+import Button from "@/components/Navbar/Button";
 import Navbar from "@/components/Navbar/Navbar";
 import SmallNavbar from "@/components/Navbar/SmallNavbar";
 import Partner from "@/components/PartnerShip/Partner";

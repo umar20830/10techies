@@ -1,7 +1,10 @@
+"use client"
 import React from 'react'
 import Button from '../Navbar/Button'
 
+
 const Heading = () => {
+
     return (
         <>
             <div className="w-full h-full">

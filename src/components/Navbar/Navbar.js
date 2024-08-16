@@ -4,22 +4,20 @@ import Link from "next/link"
 import link from "./data/link"
 
 
-
-
 const Navbar = () => {
+
 
     const navLinks = link.navLinks;
     
-    
     return (
         <>
-            <nav className="w-full h-full px-4 mt-3 text-nowrap hidden lg:block">
+            <nav className="w-full h-full relative px-4 mt-3 text-nowrap hidden lg:block">
                 <div className="w-full h-[5rem] bg-[#ede6ff] rounded-lg px-10">
                     <div className="w-full h-full flex justify-between items-center">
                         <div className="linkLeftContainer w-full h-full flex justify-center items-center gap-6 xl:gap-10">
                            <Link className="w-[10rem] xl:w-[12rem] h-[10rem] xl:h-[12rem]" href={"/"}>
                             <div className="w-full h-full flex justify-center items-center">
-                            <Image className="" src={"/logo/logo.png"} width={200} height={200} alt={"Logo"} />
+                            <Image className="" src={"/logo/logo.png"} width={200} height={110} alt={"Logo"} />
                             </div>
                            </Link>
                             {navLinks.map((link, index) => {

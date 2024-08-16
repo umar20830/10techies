@@ -3,6 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import Button from '../Navbar/Button'
 
+
 const Footer = () => {
 
     const link = [
@@ -37,8 +38,8 @@ const Footer = () => {
                             </h2>
                         </div>
                         <div className="btnContainer flex flex-col sm:flex-row gap-5 mt-6">
-                            <Button content={"Book a call"} link={"#"} textColor={"#030326"} color={"#e7deff"} />
-                            <Button content={"Contant us"} link={"#"} textColor={"#030326"} color={"#e7deff"} />
+                            <Button textColor={"#030326"} color={"#e7deff"} link={"#"} content={"Book a call"} />
+                            <Button textColor={"#030326"} color={"#e7deff"} link={"/contact"} content={"Contact us"} />
                         </div>
                     </div>
                     <div className="rightSide w-full lg:w-1/2 mt-8 lg:p-8">
@@ -75,12 +76,12 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className="bottom w-full h-full flex flex-col md:flex-row justify-between mt-8 lg:mt-16">
+                <div className="bottom w-full h-full flex flex-col md:flex-row md:justify-between mt-4">
                     <div className="left">
-                        <div className="logo">
-                            <Image className="w-[14rem] lg:w-[25rem]" src={"/logo/logo.png"} width={200} height={200} alt='logo' />
+                        <div className="logo w-fit h-[8rem] lg:h-[17rem] flex justify-center items-center">
+                            <Image className="w-[14rem] lg:w-[25rem]" src={"/footer/logo.svg"} width={200} height={200} alt='logo' />
                         </div>
-                        <div className="footerLinks flex flex-col md:flex-row gap-5 mt-6">
+                        <div className="footerLinks flex flex-col md:flex-row gap-5">
                             {footerLinks.map((l, index) => {
                                 return <Link className="text-[1rem] lg:text-[1.2rem] text-nowrap" key={index} href={l.link} >
                                     {l.name}
@@ -88,8 +89,8 @@ const Footer = () => {
                             })}
                         </div>
                     </div>
-                    <div className="right mt-6 lg:mt-0">
-                        <h6 className="text-[1.2rem] text-nowrap lg:text-[2rem] font-bold font-['Larken_DEMO']">© 2024 Loom Digital Ltd</h6>
+                    <div className="right mt-5 md:mt-9 lg:mt-20">
+                        <h6 className="text-[1.2rem] text-nowrap lg:text-[2rem] font-bold font-['Larken_DEMO']">© 2024 10Techies Digital Ltd</h6>
                     </div>
                 </div>
             </div>
